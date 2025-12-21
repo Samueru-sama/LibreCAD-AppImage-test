@@ -16,10 +16,11 @@ rm -f /usr/share/librecad/plugins/'*.so'
 
 # Deploy dependencies
 quick-sharun \
-	/usr/bin/librecad \
-	/usr/bin/ttf2lff  \
-	/usr/lib/librecad \
-	/usr/share/librecad
+	/usr/bin/librecad   \
+	/usr/bin/ttf2lff    \
+	/usr/lib/librecad   \
+	/usr/share/librecad \
+	/usr/lib/libgtk-3.so*
 
 # Additional changes can be done in between here
 
